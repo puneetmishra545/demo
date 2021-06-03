@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Housie</title>
+    <style>
+        .custom {
+           font-size: 300%;
+           color: white;
+        }
+    </style>
+</head>
+<body style="background-color: #2fef61;">
+<!--<tr th:each="card: ${cards}">
+    <td th:text="${card}" />
+</tr>-->
+<center><p class="custom" th:text="${cards}"></p></center>
+</body>
+</html>
